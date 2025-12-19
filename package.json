@@ -1,0 +1,38 @@
+{
+  "name": "abobq228",
+  "displayName": "abobq228",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:snippet.if",
+    "onCommand:snippet.for",
+    "onCommand:snippet.while"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "snippet.if",
+        "title": "Insert if block"
+      },
+      {
+        "command": "snippet.for",
+        "title": "Insert for loop"
+      },
+      {
+        "command": "snippet.while",
+        "title": "Insert while loop"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "echo \"No tests specified\""
+  },
+  "devDependencies": {}
+}
